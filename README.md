@@ -8,6 +8,8 @@
 
 Please ★ this repo if you found it useful ★ ★ ★
 
+[Read HTML](https://ars.jamrizzi.com) [Read PDF](https://github.com/jamrizzi/adaptive-resilient-software/releases/download/0.0.1/adaptive-resilient-software.pdf)
+
 
 ## Installation
 
