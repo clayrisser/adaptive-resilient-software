@@ -108,7 +108,7 @@ immutable nature of containers.
 
 Orchestration is the software that handles coordination of containers across a
 pool of servers. Like containerization, it is a critical piece to enable
-horizontal scaling across server with minimal complexity.
+horizontal scaling across servers with minimal complexity.
 
 ## Transparent Software
 
