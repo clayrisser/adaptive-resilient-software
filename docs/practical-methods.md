@@ -65,7 +65,7 @@ contributes to flexible code
 Continuous integration automates the often complex deployment process. Automated
 deployment allows new software engineers to dive into the code without requiring
 them to understand the deployment process. It also forces engineers to record
-the deployment process, rather than simply dangerously that vital knowledge to
+the deployment process, rather than dangerously keep that vital knowledge to
 themselves.
 
 ### Quality Control Gates
