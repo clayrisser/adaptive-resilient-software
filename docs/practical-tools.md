@@ -16,10 +16,10 @@ The pluggable linting utility for JavaScript and JSX
 
 ## Unit Tests
 
-Unit tests also require-language specific tools
+Unit tests also require language-specific tools
 
 ### [PyUnit](https://wiki.python.org/moin/PyUnit)
-An easy way to create unit testing programs and UnitTests with Python
+An easy way to create unit tests with Python
 
 ### [Mocha](https://mochajs.org)
 A feature-rich JavaScript test framework running on Node.js and in the browser,
@@ -45,7 +45,7 @@ A tool that makes it easy to create intelligent and beautiful documentation
 The leading open source automation server
 
 ### [Drone](https://drone.io)
-An open source Continuous Delivery platform that automates your testing and
+An open source continuous delivery platform that automates your testing and
 release workflows
 
 ## Quality Control Gates
@@ -56,19 +56,21 @@ The leading product for continuous code quality
 ## Containerization
 
 ### [Docker](https://www.docker.com)
+A platform to create, deploy and manage virtualized application containers on a
+common operating system
 
 ## Orchestration
 
 ### [Kubernetes](https://kubernetes.io)
-Kubernetes is an open-source system for automating deployment, scaling, and
-management of containerized applications
+A system for automating deployment, scaling, and management of containerized
+applications
 
 ### [Mesos](http://mesos.apache.org)
 Abstracts CPU, memory, storage, and other compute resources away from machines,
 enabling fault-tolerant and elastic distributed systems
 
 ### [Docker Swarm](https://docs.docker.com/engine/swarm)
-A Docker-native clustering system
+A native Docker clustering system
 
 ### [Rancher](https://rancher.com)
 Deploy and manage Kubernetes with ease
