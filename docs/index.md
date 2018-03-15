@@ -7,7 +7,7 @@ often it happens as a result of progressive evolution.
 
 A common vicissitude is the inevitable departure of a software engineer or
 software team. It is easy for software engineers to focus on the current
-objective and fail to prepare the software for when they are gone. This failure
+objective and fail to prepare the software for when they leave. This failure
 is a result of few incentives to give thought towards the future of the
 software. In fact, often there are more incentives to develop software that is
 not adaptive. Software that is dependent on a few engineers is a form of job
