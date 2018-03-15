@@ -4,7 +4,7 @@
 [![Beerpay](https://beerpay.io/jamrizzi/adaptive-resilient-software/make-wish.svg?style=flat-square)](https://beerpay.io/jamrizzi/adaptive-resilient-software?focus=wish)
 [![GitHub stars](https://img.shields.io/github/stars/jamrizzi/adaptive-resilient-software.svg?style=social&label=Stars)](https://github.com/jamrizzi/adaptive-resilient-software)
 
-> Official whitepaper for adaptive resilient software
+> Process for building software that can recoil from transition quickly
 
 Please ★ this repo if you found it useful ★ ★ ★
 
