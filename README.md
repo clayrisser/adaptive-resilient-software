@@ -1,4 +1,4 @@
-# adaptive-resilient-software
+# Adaptive Resilient Software
 
 [![Beerpay](https://beerpay.io/jamrizzi/adaptive-resilient-software/badge.svg?style=beer-square)](https://beerpay.io/jamrizzi/adaptive-resilient-software)
 [![Beerpay](https://beerpay.io/jamrizzi/adaptive-resilient-software/make-wish.svg?style=flat-square)](https://beerpay.io/jamrizzi/adaptive-resilient-software?focus=wish)
@@ -9,24 +9,26 @@
 Please ★ this repo if you found it useful ★ ★ ★
 
 
-## Features
-
-* Explanation of adaptive resilient software
-* Practical methods to build adaptive resilient software
-* Tips to detect adaptive resilient software
-
-
 ## Installation
 
 ```sh
-git clone
+git clone git@github.com:jamrizzi/adaptive-resilient-software.git
 ```
+
+
+## Dependencies
+
+* [GNU Make](https://www.gnu.org/software/make)
+* [Python 3](https://www.python.org)
+* [Virtualenv](https://virtualenv.pypa.io)
+* [Latexmk](http://mg.readthedocs.io/latexmk.html)
+* [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit)
 
 
 ## Usage
 
 ```sh
-make serve
+make pdf
 ```
 
 

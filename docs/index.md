@@ -5,8 +5,6 @@ quickly. We will define adaptive resilient software as software that can recoil
 from transition quickly. A transition can occur negatively as vicissitude, but
 often it happens as a result of progressive evolution.
 
-> Software that is dependent on a few engineers is a form of job security
-
 A common vicissitude is the inevitable departure of a software engineer or
 software team. It is easy for software engineers to focus on the current
 objective and fail to prepare the software for when they are gone. This failure
@@ -16,15 +14,10 @@ not adaptive. Software that is dependent on a few engineers is a form of job
 security. Purposefully writing nonadaptive software happens more frequently than
 software engineers will admit.
 
-> Failing to write adaptive resilient software occurs naturally
-
 Not all transitions are negative. Companies often pivot their strategies which
 can result in significant software transformation. Planning for such shifts are
 often overlooked by software engineers. In summary, writing nonadaptive software
 will naturally occur unless processes are put in place to prevent it.
-
-> Development shops are the most significant culprit that fail to write adaptive
-> resilient software
 
 Many large corporations have processes to encourage adaptive resilient software.
 However, they have a strong incentive to do so. The most significant culprit
@@ -37,231 +30,10 @@ source tools for implementing adaptive resilient software. The last section will
 give some tips for detecting whether a software engineer or development shop is
 writing adaptive resilient software.
 
-# Practical Methods
-
-We can build adaptive resilient software by creating flexible, maintainable,
-scalable, and transparent software.
-
-## Flexible Software
-
-We should first implement processes to create flexible software. We will define
-flexible software as software that can pivot and evolve without requiring large
-amounts of refactoring. Flexible software helps it recoil from a transition
-involving progressive evolution. Some processes that will help create flexible
-software include unit tests, documentation, and containerization.
-
-### Unit Tests
-
-Unit tests are difficult to create for large complex functions with side
-effects. Thus, unit tests have the added benefit of forcing engineers to split
-their code into small individual pure units, which are naturally easier to
-extend and reuse. Extendable and reusable code positively contributes to
-flexible software.
-
-### Documentation
-
-Documentation helps keep track of the software's application programming
-interfaces. In other words, it allows engineers to recall and understand how the
-code works without reading the entire codebase. Documentation contributes to
-flexible software because it speeds up the time it takes for software engineers
-to extend and modify the codebase.
-
-### Containerization
-
-Containerization creates a partition between software engineers and dev-ops
-engineers. This partition also contributes to flexible software, because a
-software transition will not require a significant change in the dev-ops world.
-Often, software engineers can make extensive changes to the codebase with no
-modifications needed by the dev-ops team.
-
-## Maintainable Software
-
-We should also implement processes to create maintainable software. We will
-define maintainable software as software that can transcend individual software
-engineers. Maintainable software helps a platform recoil from the inevitable
-transition of software engineers. Some processes that will help create
-maintainable software include linting, unit tests, documentation, continuous
-integration, and quality control gates.
-
-### Linting
-
-Linting contributes to maintainable software because it forces standardization
-across the codebase. A standardized codebase makes it easier for a software
-engineer to understand and navigate the codebase.
-
-### Unit Tests
-
-Unit tests contribute to maintainable software in a similar way they contribute
-to flexible code
-
-### Documentation
-
-Documentation contributes to maintainable software in a similar way it
-contributes to flexible code
-
-### Continuous Integration
-
-Continuous integration automates the often complex deployment process. Automated
-deployment allows new software engineers to dive into the code without requiring
-them to understand the deployment process. It also forces engineers to record
-the deployment process, rather than simply dangerously that vital knowledge to
-themselves.
-
-### Quality Control Gates
-
-Quality control gates are automated barriers that prevent deployment when
-enabled. These barriers are activated when a codebase fails to meet defined
-criteria. The defined criteria can involve the code coverage percentage, the
-number of code smells, the number of vulnerabilities, the number of
-duplications, the code size, and the number of bugs. Quality control gates force
-engineers improve the maintainability of the software.
-
-## Scalable Software
-
-We should additionally implement processes to create scalable software. We will
-define scalable software as software that can accommodate its growth potential
-without requiring large amounts of refactoring. Scalable software helps a
-platform handle a growth transition. Some processes that will help create
-scalable software include unit tests, quality control gates, containerization,
-and orchestration.
-
-### Unit Tests
-
-As stated previously, unit tests force software engineers to split their code
-into many small modular pieces. Modular code can help engineers run diagnostics
-to pinpoint areas that can be optimized. Optimizing software is a crucial part
-of scaling software.
-
-### Quality Control Gates
-
-Quality controls gates contribute to scaling because they can automatically
-detect places where the code can be optimized.
-
-### Containerization
-
-Containerization enables a dev-ops team to scale a platform horizontally across
-multiple servers with minimal complexity. This is due to the immutable nature of
-containers.
-
-### Orchestration
-
-Orchestration is the software that handles coordination of containers across a
-pool of servers. Like containerization, it is a critical piece to enable
-horizontal scaling across server with minimal complexity.
-
-Orchestration enables a dev-ops team to scale a platform horizontally across
-multiple servers with minimal complexity. This is due to the immutable nature of
-containers.
-
-## Transparent Software
-
-Last of all, we should implement processes to create transparent software. We
-will define transparent software as software individuals can understand without
-the requirement to understand the code. Transparent software is specifically
-applicable for leaders or those who carry the vision for a software platform.
-This transparency creates a powerful feedback loop that once in place will
-vastly improve a transition of leadership. Some processes that will help create
-transparent software include documentation, quality control gates,
-and project management.
-
-### Documentation
-
-Documentation allows a leader to understand the essence of the software without
-being required to understand the details.
-
-### Quality Control Gates
-
-Quality control gates allow a leader to see the quality of the software through
-simple metrics.
-
-### Project Management
-
-Project management enables a leader to know the current status of the software
-concerning the goals and vision of the project.
-
-# Practical Tools
-
-Below are some specific tools that can help software engineers implement the
-previous processes. All of the tools listed are open source.
-
-## Linting
-
-Linting requires different tools depending on the programming language used.
-
-### Pylint
-### Eslint
-
-## Unit Tests
-
-Unit tests also require language specific tools.
-
-### Unittest
-### Mocha
-### Jasmine
-### Jest
-
-## Documentation
-
-One can write documentation manually, but it is much easier to use a
-documentation generator.
-
-### Sphinx
-
-## Continuous Integration
-
-### Jenkins
-### Drone
-
-## Quality Control Gates
-
-### SonarQube
-
-## Containerization
-
-### Docker
-
-## Orchestration
-
-### Kubernetes
-### Mesos
-### Docker Swarm
-### Rancher
-
-## Project Management
-
-### Taiga
-
-# Detecting
-
-It can be difficult to detect whether a software engineer or software team will
-write adaptive resilient software. One practice that may be helpful is to review
-their processes and compare it with the practical development methods for
-building adaptive resilient software.
-
-In many situations, a development shop will not be practicing all of the
-recommended processes suggested. These situations do not necessarily conclude
-the software team failed to build adaptive resilient software. Regardless of the
-specific processes, you should look for a team that creates flexible,
-maintainable, scalable, and transparent software. Ultimately it is up to you to
-determine what procedures are essential and choose the team that best matches
-your goals.
-
-Once you choose a team it will be much easier to determine how they operate. You
-should first look for transparency in the software team. If the team is not
-transparent, it will be difficult to know if they are building flexible,
-maintainable, and scalable software. If the team is transparent, you will want
-to make sure the team gives thought to what happens when they are out of the
-picture.
-
-# Conclusion
-
-Transitions are a necessary, inevitable part of software development. It is time
-to prepare for them as part of your development strategy by building adaptive
-resilient software.
-
-# Resilient Tech
-
-Resilient Tech is a development studio built on the principles of adaptive
-resilient software. It is our mission to build adaptive resilient software that
-brings our partners enduring value. We consider our work a success when the
-software we build outlives the relationship with our partners.
+# Content
+
+* [Practical Methods](practical-methods.md)
+* [Practical Tools](practical-tools.md)
+* [Detecting ARS](detecting-ars.md)
+* [Conclusion](conclusion.md)
+* [Resilient Tech](resilient-tech.md)

@@ -16,8 +16,12 @@ serve: env clean html
 help:
 	@$(SPHINXBUILD) -M help $(SOURCEDIR) $(BUILDDIR) $(SPHINXOPTS) $(O)
 
-pdf: latexpdf
-	@google-chrome $(SOURCEDIR)/$(BUILDDIR)/latex/$(shell echo $(SPHINXPROJ) | sed "s/-/_/g").pdf
+.PHONY: pdf
+pdf: docs/build/pdf
+	@google-chrome $(SOURCEDIR)/$(BUILDDIR)/pdf/$(SPHINXPROJ).pdf
+docs/build/pdf: latexpdf
+	@mkdir -p docs/build/pdf
+	@pdftk $(SOURCEDIR)/$(BUILDDIR)/latex/$(shell echo $(SPHINXPROJ) | sed "s/-/_/g").pdf cat 1 5-12 output $(SOURCEDIR)/$(BUILDDIR)/pdf/$(SPHINXPROJ).pdf
 
 env:
 	@virtualenv env

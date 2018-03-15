@@ -26,7 +26,7 @@ master_doc = 'index'
 latex_documents = [(
     master_doc,
     'adaptive_resilient_software.tex',
-    'Adaptive Resilient Software',
+    'Adaptive Resilient Software (ARS)',
     'Jam Risser',
     'manual'
 )]
@@ -41,7 +41,7 @@ latex_elements = {
 man_pages = [(
     master_doc,
     'adaptive_resilient_software',
-    'Adaptive Resilient Software Documentation',
+    'Adaptive Resilient Software (ARS)',
     [author],
     1
 )]
@@ -65,7 +65,7 @@ templates_path = ['_templates']
 texinfo_documents = [(
     master_doc,
     'adaptive-resilient-software',
-    'Adaptive Resilient Software Documentation',
+    'Adaptive Resilient Software (ARS)',
     author,
     'adaptive_resilient_software',
     'Official whitepaper for adaptive resilient software',
