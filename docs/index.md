@@ -36,4 +36,3 @@ writing adaptive resilient software.
 * [Practical Tools](practical-tools.md)
 * [Detecting ARS](detecting-ars.md)
 * [Conclusion](conclusion.md)
-* [Resilient Tech](resilient-tech.md)
