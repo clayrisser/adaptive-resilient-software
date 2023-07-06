@@ -1,5 +1,7 @@
 # Introduction
 
+![](assets/adaptive-resilient-software.png) 
+
 Traditionally, resilient software is software that can recoil from failure
 quickly. We will define adaptive resilient software as **software that can recoil
 from transition quickly**. A transition can occur negatively as vicissitude, but
